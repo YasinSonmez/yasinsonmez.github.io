@@ -18,8 +18,8 @@ I am a third-year PhD student in the Electrical Engineering and Computer Science
 
 Before Berkeley, I earned a double major in Electrical and Electronics Engineering and Physics at [Boğaziçi University](https://en.wikipedia.org/wiki/Bo%C4%9Fazi%C3%A7i_University).
 
-Research Interests:
-Autonomous Driving & Robotics
-Reinforcement Learning & Optimal Control
-Machine Learning for Planning
-Real-time Control and Optimization
+Research Interests:  
+- Autonomous Driving & Robotics  
+- Reinforcement Learning & Optimal Control  
+- Machine Learning for Planning  
+- Real-time Control and Optimization  
