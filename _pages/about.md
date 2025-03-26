@@ -23,3 +23,7 @@ Research Interests:
 - Reinforcement Learning & Optimal Control  
 - Machine Learning for Planning  
 - Real-time Control and Optimization  
+
+<div align="left">
+  <a href="https://drive.google.com/file/d/1nEbavEhzJU-AE1EMTvhR9v0h8lhpEeac/view?usp=sharing" title="CV"><i class="ai ai-cv"  style="font-size:200%;"></i></a>&emsp;
+</div><br />
