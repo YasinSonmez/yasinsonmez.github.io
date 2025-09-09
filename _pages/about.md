@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a third-year PhD student in the Electrical Engineering and Computer Sciences (EECS) department at UC Berkeley, working in [Murat Arcak’s](https://people.eecs.berkeley.edu/~arcak/) group and affiliated with [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/). My research focuses on developing efficient planning and decision-making algorithms for robotics and autonomous vehicles, with an emphasis on reinforcement learning, real-time control, and optimization. I aim to develop principled methods that integrate control theory and machine learning to enable intelligent decision-making in complex, dynamic environments.
+I am a fourth-year PhD student in the Electrical Engineering and Computer Sciences (EECS) department at UC Berkeley, working in [Murat Arcak’s](https://people.eecs.berkeley.edu/~arcak/) group and affiliated with [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu/). My research focuses on developing efficient planning and decision-making algorithms for robotics and autonomous vehicles, with an emphasis on reinforcement learning, real-time control, and optimization. I aim to develop principled methods that integrate control theory and machine learning to enable intelligent decision-making in complex, dynamic environments.
 
 Before Berkeley, I earned a double major in Electrical and Electronics Engineering and Physics at [Boğaziçi University](https://en.wikipedia.org/wiki/Bo%C4%9Fazi%C3%A7i_University).
 
