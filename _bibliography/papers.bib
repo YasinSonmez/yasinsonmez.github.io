@@ -29,7 +29,7 @@
   preview={1.png},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oTzEsqoAAAAJ&citation_for_view=oTzEsqoAAAAJ:u5HHmVD_uO8C},
   selected={true},
-  display_order={4}
+  display_order={5}
 }
 
 @inproceedings{sonmez2024optimal,
@@ -42,7 +42,7 @@
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oTzEsqoAAAAJ&citation_for_view=oTzEsqoAAAAJ:u-x6o8ySG0sC},
   preview={2.png},
   selected={true},
-  display_order={6},
+  display_order={7},
   organization={IEEE}
 }
 
@@ -73,21 +73,36 @@
   html={https://arxiv.org/abs/2512.12081},
   preview={5.png},
   selected={true},
-  display_order={5},
+  display_order={6},
   url={https://arxiv.org/abs/2512.12081},
 }
 
+@article{sonmez2026realtimeinvariantsets,
+  title={Real-Time Synthesis of Robust Controlled Invariant Sets for Monotone Systems},
+  author={Sonmez, Yasin and Khaled, Mahmoud and Zamani, Majid and Arcak, Murat},
+  journal={arXiv preprint arXiv:2609.14115},
+  year={2026},
+  abstract={Safety-critical control of autonomous systems requires formal safety certificates, such as controlled invariant sets, that must be computed online as conditions change. Although standard synthesis algorithms scale poorly with state dimension, monotone dynamical systems with lower-closed safety specifications allow for accelerated computation of controlled invariant sets. We introduce a threshold-function reformulation in which a lower-closed set on a d-dimensional grid is represented by its column heights along a designated axis. This yields an embarrassingly parallel iteration with asymptotically lower computational complexity than the lazy fixed-point algorithm. Experiments synthesize invariant sets on 3D grids with 10^9 cells in under 50 ms and 10^14 cells in under two minutes.},
+  html={https://arxiv.org/abs/2609.14115},
+  url={https://arxiv.org/abs/2609.14115},
+  arxiv={2609.14115},
+  code={https://github.com/mkhaled87/pFaces-MonoSynth},
+  preview={8.gif},
+  selected={true},
+  display_order={3}
+}
+
 @inproceedings{wintz2025sharc,
-  title={Sharc: Simulator for Hardware Architecture and Real-time Control},
+  title={SHARC: Simulator for Hardware Architecture and Real-time Control},
   author={Wintz*, Paul K and Sonmez*, Yasin and Griffioen, Paul and Xu, Mingsheng and Oh, Surim and Litz, Heiner and Sanfelice, Ricardo G and Arcak, Murat},
   booktitle={Proceedings of the 28th ACM International Conference on Hybrid Systems: Computation and Control},
-  abstract={Tight coupling between computation, communication, and control pervades the design and application of cyber-physical systems (CPSs). Due to the complexity of these systems advanced design procedures that account for these tight interconnections are paramount to ensure the safe and reliable operation of control algorithms under computational constraints. This paper presents the Simulator for Hardware Architecture and Real-time Control (Sharc) to assist in the co-design of control algorithms and the computational hardware on which they are run. Sharc simulates the execution of a user-specified control algorithm on a given processor microarchitecture configuration, evaluating how computational constraints affect the dynamical properties of the closed-loop system. We illustrate the power of Sharc by examples of MPC applied to adaptive cruise control and the stabilization of an inverted pendulum. Sharc can be found at github.com/pwintz/sharc.},
+  abstract={Tight coupling between computation, communication, and control pervades the design and application of cyber-physical systems (CPSs). Due to the complexity of these systems advanced design procedures that account for these tight interconnections are paramount to ensure the safe and reliable operation of control algorithms under computational constraints. This paper presents the Simulator for Hardware Architecture and Real-time Control (SHARC) to assist in the co-design of control algorithms and the computational hardware on which they are run. SHARC simulates the execution of a user-specified control algorithm on a given processor microarchitecture configuration, evaluating how computational constraints affect the dynamical properties of the closed-loop system. We illustrate the power of SHARC by examples of MPC applied to adaptive cruise control and the stabilization of an inverted pendulum. SHARC can be found at github.com/pwintz/sharc.},
   journal={IEEE Control Systems Letters},
   pages={1--11},
   year={2025},
   preview={4.png},
   selected={true},
-  display_order={3},
+  display_order={4},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oTzEsqoAAAAJ&citation_for_view=oTzEsqoAAAAJ:9yKSN-GCB0IC},
   website={https://github.com/pwintz/sharc}
 }
