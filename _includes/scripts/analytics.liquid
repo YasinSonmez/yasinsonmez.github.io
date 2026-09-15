@@ -30,3 +30,53 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_umami_analytics and site.umami_website_id %}
+  <!-- Umami Analytics -->
+  <script
+    defer
+    src="https://cloud.umami.is/script.js"
+    data-website-id="{{ site.umami_website_id }}"
+    data-performance="true"
+  ></script>
+  <script>
+    document.addEventListener('click', function (event) {
+      var target = event.target;
+      var link = target && target.closest ? target.closest('a[href]') : null;
+
+      if (!link || typeof window.umami === 'undefined' || typeof window.umami.track !== 'function') {
+        return;
+      }
+
+      var href = link.getAttribute('href');
+      if (!href || href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0) {
+        return;
+      }
+
+      var url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (error) {
+        return;
+      }
+
+      if ((url.protocol !== 'http:' && url.protocol !== 'https:') || url.hostname === window.location.hostname) {
+        return;
+      }
+
+      var eventName = 'outbound_click';
+      if (url.hostname === 'drive.google.com') {
+        eventName = 'cv_click';
+      } else if (url.hostname === 'arxiv.org') {
+        eventName = 'paper_click';
+      } else if (url.hostname === 'scholar.google.com') {
+        eventName = 'scholar_click';
+      } else if (url.hostname === 'linkedin.com' || url.hostname.endsWith('.linkedin.com')) {
+        eventName = 'linkedin_click';
+      } else if (url.hostname === 'github.com' || url.hostname.endsWith('.github.com')) {
+        eventName = 'github_click';
+      }
+
+      window.umami.track(eventName, { destination: url.hostname });
+    });
+  </script>
+{% endif %}
